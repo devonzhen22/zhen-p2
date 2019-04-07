@@ -72,6 +72,7 @@ $(document).ready( function() {
 	$('.details').eq(0).hide();
 	//CHANGES:Toggles details box below
 	$('.moreIndicator').click(function(){
+		$(this).toggleClass('rotate')
 		$('.details').toggle()
 	});
 });
