@@ -32,7 +32,7 @@ body {
 	opacity: .8;
 	top: 0px;
 }
-/*Added Rotation to detail arrow*/
+/*CHANGES: Added Rotation to detail arrow*/
 .rotate {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
