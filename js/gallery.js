@@ -73,7 +73,7 @@ $(document).ready( function() {
 	//CHANGES:Toggles details box below
 	$('.moreIndicator').click(function(){
 		$(this).toggleClass('rotate')
-		$('.details').toggle()
+		$('.details').slideToggle()
 	});
 });
 
