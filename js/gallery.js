@@ -62,7 +62,7 @@ var mRequest = new XMLHttpRequest();
 
 //URL for the JSON to load by default
 //Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = "images-short.json";
+var mUrl = "images.json";
 
 var mRequest = new XMLHttpRequest();
 mRequest.onreadystatechange = function() {
